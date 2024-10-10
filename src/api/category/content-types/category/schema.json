@@ -15,17 +15,11 @@
     "name": {
       "type": "string"
     },
-    "slug": {
-      "type": "uid"
+    "parent": {
+      "type": "integer"
     },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article",
-      "mappedBy": "category"
-    },
-    "description": {
-      "type": "text"
+    "order": {
+      "type": "integer"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "allergies",
+  "info": {
+    "singularName": "allergy",
+    "pluralName": "allergies",
+    "displayName": "Allergy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
